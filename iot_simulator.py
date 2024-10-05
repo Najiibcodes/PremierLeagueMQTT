@@ -47,8 +47,8 @@ client.on_connect = on_connect
 
 # Set the path to your certificates and private key
 ca_cert_path = "C:/Users/nejis/Downloads/AmazonRootCA1.pem"
-client_cert_path = "C:/Users/nejis/Downloads/f0b515ea534e9b6a7c3499f696c85a389b53ae753d0c551a0e3ee7100d84f831-certificate.pem.crt"
-private_key_path = "C:/Users/nejis/Downloads/f0b515ea534e9b6a7c3499f696c85a389b53ae753d0c551a0e3ee7100d84f831-private.pem.key"
+client_cert_path = "C:/Users/..pem.crt"
+private_key_path = "C:/Users/..pem.key"
 
 # Configure TLS/SSL settings for the client
 client.tls_set(ca_certs=ca_cert_path, certfile=client_cert_path, keyfile=private_key_path)
